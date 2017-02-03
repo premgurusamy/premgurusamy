@@ -5,6 +5,11 @@ body{
   font-family:"Catamaran",Roboto,sans-serif;
   background-color: rgb(250, 250, 250);
 }
+/*Website Under Construction*/
+.under-construction-content{
+  padding:30px 0;
+  background-color: rgb(224, 193, 29);
+}
 .cute-btn{
   border: none;
 }
