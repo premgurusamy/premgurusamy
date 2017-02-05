@@ -163,7 +163,7 @@ video{
   background-color: transparent;
   text-align: center;
 }
-.jumbotron h1{
+.typewrite{
   font-weight: 400;
   color: white;
 }
@@ -467,7 +467,7 @@ svg .play-button-svg:hover path {
   }
   /*Animation Works Container*/
 .cute-margin-top-xs-device{
-  margin-top: 50px;
+  margin-top: 30px;
 }
   /*****#####Testimonial Container Style******######*/
   .testimonial-content-alignment{
