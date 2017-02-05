@@ -12,14 +12,9 @@
   </head>
   <body>
     <!--Header design starts here!-->
-    <div class="container-fluid">
-      <div class="row text-center under-construction-content">
-        <h3>Website Under Construction</h3>
-      </div>
-    </div>
     <header>
       <!--navbar design ends here!-->
-      <nav class="nav navbar-default ">
+      <nav class="nav navbar-fixed-top navbar-default ">
         <div class="container">
           <!--navbar-header section!-->
           <div class="navbar-header">
@@ -30,24 +25,18 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand " href="index.html">
-              <img class="" src="asset/images/prem-logo.png" alt="Prem Gurusamy logo" />
+              <img class="" src="asset/images/prem-logo-white.png" alt="Prem Gurusamy" />
             </a>
           </div>
           <!--navbar menu section!-->
           <div class="navbar-right ">
-            <div class="collapse navbar-collapse" id="navbar-menu-list">
+            <div class="collapse navbar-collapse nav-justified" id="navbar-menu-list">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                    Works<span class="fa fa-angle-down drop-down-icon"></span></a>
-                    <ul class="dropdown-menu videos-dropdown-box">
-                      <li><a href="#"><img class="dropdown-videos-icon hidden-xs" src="asset/images/product-explainer-icon.svg" />User Interface</a></li>
-                      <li><a href="#"><img class="dropdown-videos-icon hidden-xs" src="asset/images/client-testimonial-icon.svg" />Animation</a></li>
-                    </ul>
-                </li>
+                  <a href="#">Works</a></li>
                 <li><a href="#">About Me</a></li>
-                <li class="hire-me-button" ><a  href="#">Hire Me!</a></li>
+                <a href="#"><button type="button" class="btn hire-me-button  btn-default navbar-btn">Hire Me!</button></a>
               </ul>
             </div>
           </div>
@@ -55,37 +44,41 @@
         </div>
       </nav>
       <!--navbar design ends here!-->
+        <!--background video design starts here!-->
+        <div class="new-bg-test">
+          <div class="header-video-container">
+            <div class="video-container">
+           <!--<video src="asset/videos/our-story.mp4" type="video/mp4" loop="loop" autoplay="true" poster="posterimage.jpg"></video>
+            !--></div>
+            <!--Intro Jumbotron Design Starts Here!-->
+            <div class="container jumbotron-container">
+              <div class="jumbotron">
+                <h1 >Design.Develop.Animation</h1>
+                <p>
+                  Creative designer based in Hyderabad location.
+                </p>
+                <a role="button" class="intro-modal-trigger-play-btn cute-btn"  data-toggle="modal" data-target="#intro-modal-video" href="#">
+                  <svg class="play-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	             viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                    <style type="text/css">
 
-      <!--background video design starts here!-->
-      <div class="header-video-container">
-        <div class="video-container">
-        <!--  <video src="asset/videos/our-story.mp4" type="video/mp4" loop="loop" autoplay="true" poster="posterimage.jpg"></video>
-        !--></div>
-        <!--Intro Jumbotron Design Starts Here!-->
-        <div class="container jumbotron-container">
-          <div class="jumbotron">
-            <h1 >Designer / Developer</h1>
-            <p>
-              Self taught designer based in Hyderabad.
-            </p>
-            <a role="button" class="intro-modal-trigger-play-btn cute-btn"  data-toggle="modal" data-target="#intro-modal-video" href="#">
-              <svg class="play-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	             viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
-                <style type="text/css">
+                    </style>
+                    <g class="play-button-svg">
+                  <path id="video-13" class="play-circle" d="M15.5,3.5c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12S22.1,3.5,15.5,3.5z"/>
+                  <polygon class="play-polystar" points="18.8,15.6 13,18.9 13,12.4 "/>
+                    </g>
+                  </svg>
+                </a>
 
-                </style>
-                <g class="play-button-svg">
-              <path id="video-13" class="play-circle" d="M15.5,3.5c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12S22.1,3.5,15.5,3.5z"/>
-              <polygon class="play-polystar" points="18.8,15.6 13,18.9 13,12.4 "/>
-                </g>
-              </svg>
-            </a>
-
+              </div>
+            </div>
+            <!--Intro Jumbotron Design Ends Here!-->
           </div>
+
         </div>
-        <!--Intro Jumbotron Design Ends Here!-->
-      </div>
-      <!--background video design ends here!-->
+        <!--background video design ends here!-->
+
+
     </header>
     <!--header design ends here!-->
 <!--Intro Modal Video Starts Here!-->
@@ -142,56 +135,77 @@
   <!--Define Possible Goal Starts Here!-->
   <div class="container define-goals-container">
     <div class="row">
-      <div class=" center-block">
+      <div  class=" center-block">
           <h2 class="text-center cute-header-text">Skills</h3>
             <p class="text-center center-block border-line"></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-3 col-sm-6 define-goal-content">
-        <img class="center-block define-goals-icon" src="asset/images/website-rate-icon.svg" />
+        <img class="center-block define-goals-icon" src="asset/images/ui-design-icon.svg" />
         <p class="cute-paragraph">
           UI Design
         </p>
       </div>
       <div class="col-md-3 col-sm-6 define-goal-content">
-        <img class="center-block define-goals-icon"src="asset/images/explain-product-icon.svg" />
+        <img class="center-block define-goals-icon"src="asset/images/ui-development-icon.svg" />
         <p class="cute-paragraph">
           UI Development
         </p>
       </div>
       <div class="col-md-3 col-sm-6 define-goal-content">
-        <img class="center-block define-goals-icon"src="asset/images/help-sales-icon.svg" />
+        <img class="center-block define-goals-icon"src="asset/images/icon-design-icon.svg" />
         <p class="cute-paragraph">
-          Branding
+          Icon Design
         </p>
       </div>
       <div class="col-md-3 col-sm-6 define-goal-content">
-        <img class="center-block define-goals-icon"src="asset/images/help-customer-icon.svg" />
+        <img class="center-block define-goals-icon"src="asset/images/motion-graphics-icon.gif" />
         <p class="cute-paragraph">
-          Motion Design
+          Animation
         </p>
       </div>
     </div>
   </div>
 
   <!--Improves Conversion Container Starts Here!-->
-  <div class="container improves-conversion-container">
+  <div class="container animation-works-container">
     <div class="row">
       <div class=" center-block">
-          <h2 class="text-center cute-header-text">The right video improves conversion</h3>
+          <h2 class="text-center cute-header-text">Animation</h3>
             <p class="text-center center-block border-line"></p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 center-block improves-conversion-video">
+      <div class="col-md-10 center-block animation-works-video">
         <div class=" embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u7s4GR0BRGo?rel=0&amp;showinfo=0" frameborder="0"
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R6MfXWuokKA?rel=0&amp;showinfo=0" frameborder="0"
           allowfullscreen></iframe>
         </div>
       </div>
     </div>
+    <div class="row cute-margin-top ">
+        <div class="col-md-6 animation-works-video">
+          <div class=" embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OgKRlqCNq4s?rel=0&amp;showinfo=0" frameborder="0"
+            allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-6 cute-margin-top-xs-device animation-works-video">
+          <div class=" embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/km_8RsvBeJE?rel=0&amp;showinfo=0" frameborder="0"
+            allowfullscreen></iframe>
+          </div>
+        </div>
+
+    </div>
+    <div class="row cute-margin-top text-center ">
+      <div class="col-md-3 center-block">
+          <a href="#" class="btn btn-block btn-primary cute-btn more-btn">See More</a>
+      </div>
+    </div>
   </div>
+
   <!--Testimonial Container starts Here!-->
   <div class="container testimonial-container">
     <div class="row">
@@ -246,6 +260,9 @@
               <img class="img-responsive client-logo" src="asset/images/detangled-logo.png" />
             </div>
             <div class="col-md-6">
+              <img class="img-responsive client-logo" src="asset/images/crevo-logo.png" />
+            </div>
+            <div class="col-md-6">
               <img class="img-responsive client-logo" src="asset/images/perdix-logo.png" />
             </div>
           </div>
@@ -260,9 +277,12 @@
       <div class="container">
         <div class="row move-lets-talk-content">
           <div class="lets-talk-content col-md-12">
+            <div class="col-md-8 col-sm-6 hidden-xs">
+              <img src="asset/images/get-in-touch-aero.gif" class="img-responsive" />
+            </div>
             <div class="col-md-4 col-sm-6 col-xs-12 text-center">
               <h2>Let's talk about your company project</h2>
-              <a href="#" class="btn btn-primary schedule-allan-btn cute-btn"><i class="fa fa-envelope-o phone-icon"></i>Get in Touch</a>
+              <a href="#" class="btn btn-primary get-in-touch-btn cute-btn"><i class="fa fa-envelope-o phone-icon"></i>Get in Touch</a>
             </div>
           </div>
         </div>
@@ -275,8 +295,8 @@
     <div class="row">
       <div class="col-md-3 text-center center-block">
         <a class="social-media-icon" href="https://dribbble.com/premgurusamy" target="_blank"><i class="fa fa-dribbble"></i></a>
-        <a class="social-media-icon" href="https://twitter.com/premgurusamy" target="_blank"><i class="fa fa-twitter"></i></a>
         <a class="social-media-icon" href="https://instagram.com/premgurusamy" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a class="social-media-icon" href="https://vimeo.com/premgurusamy" target="_blank"><i class="fa fa-vimeo"></i></a>
       </div>
     </div>
       <div class="footer-column-content">
