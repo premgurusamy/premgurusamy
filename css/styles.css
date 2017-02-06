@@ -73,7 +73,7 @@ body{
   border: none;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover {
-  color: rgba(255,255,255,0.7) !important;
+  color: rgba(255,255,255,0.8) !important;
   transition: all 0.3s ease-in;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -93,11 +93,13 @@ body{
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
+  color: rgba(255,255,255,0.5) !important;
 }
 .navbar-brand img{
   height: 30px;
 }
 .hire-me-button{
+  margin-left: 10px;
   font-weight: 600;
   color: rgba(255,255,255,1) ;
   transition: all 0.3s ease-in;
@@ -298,8 +300,6 @@ svg .play-button-svg:hover path {
   margin-bottom: 80px;
 }
 .testimonial-content-alignment{
-}
-.testimonial-content-alignment{
   padding-top: 50px;
   transition: all .3s ease-out;
 }
@@ -450,11 +450,6 @@ svg .play-button-svg:hover path {
     font-size: 1.2em;
     margin-top: 15px;
   }
-  .hire-me-button{
-    margin-top:20px;
-    font-weight: 700;
-    font-size: 1.2em;
-  }
   .videos-dropdown-box li a{
     font-size: 1.2em;
     margin-top: 15px;
@@ -462,16 +457,15 @@ svg .play-button-svg:hover path {
   .header-video-container{
     height: 400px;
   }
-  /***###Schedule a Call Allan Style###****/
+  /***###Works Container Small Style###****/
+  .more-btn{
+    margin-top: -30px;
+  }
 
 /*****#######Xs Screen Style######*******/
 @media only screen and (min-width : 320px) and (max-width : 767px) {
   #navbar-menu-list{
     background-color: rgba(229,69,69,1);
-  }
-  .hire-me-button{
-    margin:10px;
-    font-size: 1em;
   }
   .dropdown-menu li a{
     font-size: 1em;
