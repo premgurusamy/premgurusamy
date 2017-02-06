@@ -209,7 +209,14 @@ svg .play-button-svg:hover path {
 }
   .modal-backdrop.in {
     background: rgba(255,255,255,1);
-	  opacity: 0.8;
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+	  opacity: 0.9;
   }
   .modal-content{
     background-color: transparent;
@@ -251,7 +258,7 @@ svg .play-button-svg:hover path {
 }
 .animation-works-video{
   transition: all .3s ease-out;
-
+  margin-bottom: 30px;
 }
 
 .animation-works-video:hover{
@@ -262,6 +269,7 @@ svg .play-button-svg:hover path {
 .more-btn{
   transition: all .3s ease-out;
   font-size: 1.3em;
+  margin-top: 20px;
 
   background: rgba(230,69,69,1);
   background: -moz-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
@@ -279,10 +287,14 @@ svg .play-button-svg:hover path {
   -o-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,0.3));
   -webkit-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,0.3));
 }
-
+/*****#####UI Design Works Container Style******######*/
+.ui-design-works{
+  margin-bottom: 30px;
+}
 /*****#####Testimonial Container Style******######*/
 
 .testimonial-container{
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 .testimonial-content-alignment{
@@ -398,7 +410,7 @@ svg .play-button-svg:hover path {
 }
 .social-media-icon{
   padding-right: 30px;
-  font-size: 3em;
+  font-size: 2em;
   color: rgba(105,105,105,1);
   transition: all .3s ease-out;
 }
