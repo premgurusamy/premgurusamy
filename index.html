@@ -11,6 +11,7 @@
     <link rel="shortcut icon" type="image/png" href="asset/images/prem-logo.png" />
 
     <script>
+
     //Javascript TypeWriter
     var TxtType = function(el, toRotate, period) {
             this.toRotate = toRotate;
@@ -94,9 +95,9 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <!--<li><a href="#">Works</a></li>!-->
-                <li><a href="#">About Me</a></li>
+                <li><a href="about-me.html">About Me</a></li>
                 <li>
-                  <a class="btn hire-me-button cute-btn btn-primary " href="#">Hire Me!</a>
+                  <a class="btn hire-me-button cute-btn btn-primary " href="hire-me.html">Hire Me!</a>
                 </li>
               </ul>
             </div>
@@ -176,25 +177,25 @@
     </div>
     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-6 define-goal-content">
-        <img class=" lazy center-block define-goals-icon"  data-original="asset/images/ui-design-icon.svg" />
+        <img class="  center-block define-goals-icon" src="asset/images/ui-design-icon.svg" />
         <p class="cute-paragraph">
           UI Design
         </p>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 define-goal-content">
-        <img class=" lazy center-block define-goals-icon" data-original="asset/images/ui-development-icon.svg" />
+        <img class="  center-block define-goals-icon" src="asset/images/ui-development-icon.svg" />
         <p class="cute-paragraph">
           UI Develop
         </p>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 define-goal-content">
-        <img class=" lazy center-block define-goals-icon" data-original="asset/images/icon-design-icon.svg" />
+        <img class="  center-block define-goals-icon" src="asset/images/icon-design-icon.svg" />
         <p class="cute-paragraph">
           Icon Design
         </p>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 define-goal-content">
-        <img class=" lazy center-block define-goals-icon" data-original="asset/images/motion-graphics-icon.gif" />
+        <img class="  center-block define-goals-icon" src="asset/images/motion-graphics-icon.gif" />
         <p class="cute-paragraph">
           Animation
         </p>
@@ -235,13 +236,25 @@
           allowfullscreen></iframe>
         </div>
       </div>
+      <div class="col-md-6 animation-works-video">
+        <div class=" embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K5G4WY2OJ-k?rel=0&amp;showinfo=0" frameborder="0"
+          allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6 animation-works-video">
+        <div class=" embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6gRAFkTh85M?rel=0&amp;showinfo=0" frameborder="0"
+          allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
-
+    <!--
     <div class="row cute-margin-top text-center ">
       <div class="col-md-3 center-block">
           <a href="https://vimeo.com/premgurusamy" target="_blank" class="btn btn-block btn-primary cute-btn more-btn">See More</a>
       </div>
-    </div>
+    </div>!-->
   </div>
   <!--Ui Design works Container Starts Here!-->
   <div class="container ui-design-container">
@@ -375,6 +388,19 @@
     <!--Script section starts Here!-->
     <script type="text/javascript" src="script/jquery-3.1.1.min.js"></script>
     <script type="text/Javascript" src="script/jquery.lazyload.js"></script>
+    <script>
+    //navbar background color after scrolling
+    var a = $(".nav").offset().top;
+
+    $(document).scroll(function(){
+        if($(this).scrollTop() > a)
+        {
+           $('.nav').css({"background":"rgba(229,69,69,1)"});
+        } else {
+           $('.nav').css({"background":"transparent"});
+        }
+    });
+    </script>
     <script type="text/javascript" src="script/bootstrap.js"></script>
     <script type="text/javascript" src="script/my-script.js"></script>
 

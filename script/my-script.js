@@ -55,16 +55,3 @@ $(function() {
         $('.modal:visible').each(reposition);
     });
 });
-
-
-//navbar background color after scrolling
-var a = $(".nav").offset().top;
-
-$(document).scroll(function(){
-    if($(this).scrollTop() > a)
-    {
-       $('.nav').css({"background":"rgba(229,69,69,1)"});
-    } else {
-       $('.nav').css({"background":"transparent"});
-    }
-});

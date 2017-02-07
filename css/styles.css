@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=tamil');
 /*body section design starts here*/
 /*Global Framework*/
+/*Under Construction*/
+.under-construction-container{
+  color: white;
+  background-color: rgb(222, 176, 13);
+  transition: all 0.3s ease-in;
+}
+/*About Page*/
+.about-navbar{
+  background-color: rgba(229,69,69,1)!important;
+}
+#about-navbar-link a{
+  color: white;
+  font-weight: 700;
+}
+.about-container{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 body{
   font-family:"Catamaran",Roboto,sans-serif;
   background-color: rgb(250, 250, 250);
@@ -140,19 +159,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', end
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64545', endColorstr='#e64585', GradientType=0 );
 
 }
-video{
-  background-color: rgb(229, 238, 238);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50% , -50%);
-  z-index: -1;
-}
-
 .jumbotron-container{
   background-color: transparent;
   display: flex;
@@ -503,4 +509,11 @@ svg .play-button-svg:hover path {
   }
 
 
+}
+
+//*****#############*******
+/*****#######About Me Style######*******/
+#about-bg-image{
+  height: 600px;
+  background-image: url("paper.gif");
 }

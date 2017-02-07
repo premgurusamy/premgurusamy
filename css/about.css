@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=tamil');
+/*body section design starts here*/
+/*Global Framework*/
+body{
+  font-family:"Catamaran",Roboto,sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+.cute-margin-top{
+  margin-top: 30px;
+}
+.cute-btn{
+  border: none;
+}
+.cute-btn:focus {
+  outline:0;
+}
+.cute-header-text{
+  color: rgba(90,90,90,1);
+  line-height: 1.6em;
+  font-weight: 400;
+}
+.cute-paragraph{
+  font-size: 1.2em;
+  color: rgba(130,130,130,1);
+  line-height: 1.6em;
+}
+.border-line{
+  width: 25px;
+  border-bottom: 2px solid rgba(229,69,69,0.5);
+  margin:30px auto 40px auto;
+}
+.center-block{
+  float: none;
+}
+/*navbar toggle animation starts here*/
+.navbar-toggle {
+  overflow: hidden;
+}
+.navbar-toggle .icon-bar {
+  -webkit-transition: opacity, -webkit-transform;
+  transition: opacity, -webkit-transform;
+  transition: opacity, transform;
+  transition: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+          transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(1) {
+  -webkit-transform: translateY(6px) rotate(45deg);
+          transform: translateY(6px) rotate(45deg);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(2) {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(3) {
+  -webkit-transform: translateY(-6px) rotate(-45deg);
+          transform: translateY(-6px) rotate(-45deg);
+}
+
+/*navbar toggle animation ends here*/
+/*Navbar sections Designs starts here*/
+
+.navbar-default{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent;
+  text-align: center;
+}
+.navbar-toggle{
+  border: none;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover {
+  color: rgba(255,255,255,0.8) !important;
+  transition: all 0.3s ease-in;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active{
+  background-color: transparent;
+}
+
+#navbar-menu-list  a{
+  font-weight: 700;
+  color: white;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: rgba(255,255,255,0.5) !important;
+}
+.navbar-brand img{
+  height: 30px;
+}
+.hire-me-button{
+  margin-left: 10px;
+  font-weight: 600;
+  color: rgba(255,255,255,1) ;
+  transition: all 0.3s ease-in;
+  border-radius:0px;
+  border: none;
+
+  background: rgba(240,131,104,1);
+background: -moz-linear-gradient(45deg, rgba(240,131,104,1) 0%, rgba(254,182,69,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(240,131,104,1)), color-stop(100%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(45deg, rgba(240,131,104,1) 0%, rgba(254,182,69,1) 100%);
+background: -o-linear-gradient(45deg, rgba(240,131,104,1) 0%, rgba(254,182,69,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(240,131,104,1) 0%, rgba(254,182,69,1) 100%);
+background: linear-gradient(45deg, rgba(240,131,104,1) 0%, rgba(254,182,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', endColorstr='#feb645', GradientType=1 );
+
+}
+.hire-me-button:hover{
+  color: rgba(255,255,255,1) ;
+  transition: all 0.3s ease-in;
+  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+}
+
+/*header video container design starts here*/
+.header-video-container{
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+
+  background: rgba(230,69,69,1);
+  background: -moz-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,69,69,0.8)), color-stop(100%, rgba(230,69,133,1)));
+  background: -webkit-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -o-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -ms-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: linear-gradient(to bottom, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64545', endColorstr='#e64585', GradientType=0 );
+
+}
+.jumbotron-container{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+.jumbotron{
+  background-color: transparent;
+  text-align: center;
+}
+.typewrite{
+  font-weight: 400;
+  color: white;
+}
+.jumbotron p{
+  color: white;
+}
+.play-icon{
+  width: 75px;
+  height: 75px;
+  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+  transition: all 0.3s ease-in;
+}
+.play-polystar{
+  fill:rgba(229,69,69,1);
+}
+.play-circle{
+  fill:white;
+}
+svg .play-button-svg:hover path {
+    fill:rgba(250,250,250,1);
+
+    transition: all 0.3s ease-out;
+    -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+    -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+}
+.play-icon:hover{
+  transition: all 0.3s ease-out;
+  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+}
+  /*****#######Header Modal Style Here Style######*******/
+  /*###Video Modals Designs Here###*/
+
+  .modal-close-button{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 12px;
+    border-radius: 50px;
+    color:white;
+    background-color: rgba(10,10,10,1);
+    transition: all .3s ease-out;
+}
+  .modal-backdrop.in {
+    background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+	  opacity: 0.9;
+  }
+  .modal-content{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    transition: all 0.3s ease-out;
+    -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+    -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3))
+  }
+  .modal-header{
+    border:none;
+  }
+/*****#######My Skills Container Styles Starts Here######*******/
+.define-goals-container{
+  margin-top: 80px;
+  text-align: center;
+}
+.define-goal-content{
+  margin-bottom: 40px;
+  transition: all .3s ease-in;
+}
+.define-goal-content:hover{
+  transition: all .3s ease-out;
+}
+.define-goal-content p{
+  padding: 0 30px;
+}
+.define-goals-icon{
+
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+/*****#######Animation Videos Landing Page Container Style######*******/
+.animation-works-container{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  transition: all .3s ease-out;
+}
+.animation-works-video{
+  transition: all .3s ease-out;
+  margin-bottom: 30px;
+}
+
+.animation-works-video:hover{
+  transition: all .3s ease-out;
+  -o-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,0.3));
+  -webkit-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,0.3));
+}
+.more-btn{
+  transition: all .3s ease-out;
+  font-size: 1.3em;
+  margin-top: 20px;
+
+  background: rgba(230,69,69,1);
+  background: -moz-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,69,69,0.8)), color-stop(100%, rgba(230,69,133,1)));
+  background: -webkit-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -o-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -ms-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: linear-gradient(to bottom, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64545', endColorstr='#e64585', GradientType=0 );
+
+  border-radius: 0px;
+}
+.more-btn:hover{
+  transition: all .3s ease-out;
+  -o-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,0.3));
+  -webkit-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,0.3));
+}
+/*****#####UI Design Works Container Style******######*/
+.ui-design-works{
+  margin-bottom: 30px;
+}
+/*****#####Testimonial Container Style******######*/
+
+.testimonial-container{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.testimonial-content-alignment{
+  padding-top: 50px;
+  transition: all .3s ease-out;
+}
+.testimonial-container-borderline-bottom{
+  height: 1px;
+  background-color: rgba(200,200,200,1);
+  border-top: 1px solid rgba(200,200,200,1);
+  -o-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,.5));
+  -webkit-filter: drop-shadow(-5px 13px 10px rgba(0,0,0,.5));
+}
+.testimonial-content-text{
+  font-style: italic;
+  color: rgba(130,130,130,1);
+  line-height: 1.6em;
+  font-size: 1.5em;
+  transition: all .3s ease-out;
+}
+.testimonial-content-alignment h3{
+  color: rgba(229,69,69,1);
+}
+.testimonial-content-alignment h5{
+  color: rgba(130,130,130,1);
+}
+.quote-symbol{
+  color: rgba(130,130,130,.7);
+}
+.testimonial-logo-align{
+  display: flex;
+  margin-top: 30px;
+}
+.client-logo{
+  opacity: 0.5;
+  transition: all .3s ease-out;
+}
+.client-logo:hover{
+  opacity: 0.9;
+  transition: all .3s ease-out;
+}
+.three-logos{
+  display: flex;
+  align-items: center;
+}
+.two-logos{
+  display: flex;
+  align-items: center;
+}
+/*****#####Let's talk about Container Style******######*/
+.lets-talk-about-container{
+  /*background:url(../asset/images/schedule-call-allan-bg.jpg) center center ;*/
+  background-color: white;
+  height: 300px;
+  color: white;
+}
+.lets-talk-content{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.lets-talk-content h2{
+  line-height: 1.3em;
+  color: rgb(112, 112, 112);
+}
+.phone-icon{
+  padding-right: 5px;
+}
+.get-in-touch-btn{
+  transition: all 0.3s ease-out;
+  background: rgba(230,69,69,1);
+  background: -moz-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,69,69,0.8)), color-stop(100%, rgba(230,69,133,1)));
+  background: -webkit-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -o-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: -ms-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  background: linear-gradient(to bottom, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64545', endColorstr='#e64585', GradientType=0 );
+
+  border-radius:0px;
+  padding:10px 30px;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.get-in-touch-btn:hover{
+  transition: all 0.3s ease-out;
+  -o-filter: drop-shadow(-3px 10px 10px rgba(0,0,0,0.3));
+  -webkit-filter: drop-shadow(-3px 10px 10px rgba(0,0,0,0.3));
+}
+/*****#######Footer Container Style Starts Here######*******/
+.footer-container{
+  margin-top: 80px;
+}
+
+.footer-column-content:nth-child(3){
+  display: flex;
+  justify-content: flex-end;
+  background-color: blue;
+}
+.footer-logo{
+  height: 25px;
+  margin-bottom: 15px;
+  opacity: 0.7;
+  transition: all .3s ease-out;
+}
+.footer-logo:hover{
+  opacity: .8;
+  transition: all .3s ease-out;
+}
+.social-media-icon{
+  padding-right: 30px;
+  font-size: 2em;
+  color: rgba(105,105,105,1);
+  transition: all .3s ease-out;
+}
+.social-media-icon:hover{
+  color: rgba(230,69,69,1);
+  color: -moz-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  color: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,69,69,0.8)), color-stop(100%, rgba(230,69,133,1)));
+  color: -webkit-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  color: -o-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  color: -ms-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  color: linear-gradient(to bottom, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64545', endColorstr='#e64585', GradientType=0 );
+
+  transition: all .3s ease-out;
+}
+.footer-paragraph{
+  line-height: 1.6em;
+  color: rgba(150,150,150,1);
+}
+.footer-copyright-content{
+  margin-top: 30px;
+  padding:30px 0;
+  border-top: 1px solid rgba(120,120,120,1);
+}
+.footer-copyright-content a{
+  text-decoration:none;
+  color: rgba(100,100,100,1);
+}
+/*****#######Mobile Device Style######*******/
+@media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
+  .navbar-default{
+    background-color: rgba(229,69,69,1);
+    text-align: center;
+  }
+  #navbar-menu-list  a{
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 15px;
+  }
+  .videos-dropdown-box li a{
+    font-size: 1.2em;
+    margin-top: 15px;
+  }
+  .header-video-container{
+    height: 400px;
+  }
+  /***###Works Container Small Style###****/
+  .more-btn{
+    margin-top: -30px;
+  }
+
+/*****#######Xs Screen Style######*******/
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+  #navbar-menu-list{
+    background-color: rgba(229,69,69,1);
+  }
+  .dropdown-menu li a{
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  /*Animation Works Container*/
+.cute-margin-top-xs-device{
+  margin-top: 30px;
+}
+  /*****#####Testimonial Container Style******######*/
+  .testimonial-content-alignment{
+    padding-top: 15px;
+    transition: all .3s ease-out;
+    text-align: center;
+  }
+  .testimonial-logo-align{
+    display:inline-block;
+  }
+  /*****#####Let's talk about Container Style******######*/
+  .lets-talk-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
+/*****#######Sm Screen Style######*******/
+@media only screen and (min-width : 768px) and (max-width : 991px){
+  /*****#####Testimonial Container Style******######*/
+  .testimonial-content-alignment{
+    padding-top: 15px;
+    text-align: center;
+    transition: all .3s ease-out;
+  }
+
+
+}
