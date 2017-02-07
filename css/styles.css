@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700&subset=tamil');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700&subset=tamil');
 /*body section design starts here*/
 /*Global Framework*/
 /*Under Construction*/
@@ -19,7 +19,14 @@
   margin-top: 80px;
   margin-bottom: 80px;
 }
-
+.about-content-section h1{
+  color: rgba(80,80,80,1);
+}
+.about-content-para-header{
+  font-weight: 300;
+  line-height: 1.5em;
+  color: rgba(90,90,90,1);
+}
 body{
   font-family:"Catamaran",Roboto,sans-serif;
   background-color: rgb(250, 250, 250);

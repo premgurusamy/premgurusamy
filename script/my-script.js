@@ -55,3 +55,6 @@ $(function() {
         $('.modal:visible').each(reposition);
     });
 });
+
+
+//contact form
