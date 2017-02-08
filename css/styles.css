@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700&subset=tamil');
 /*body section design starts here*/
 /*Global Framework*/
+.hire-me-column-container{
+  display: flex;
+  align-items: center;
+}
 /*Under Construction*/
 .under-construction-container{
   color: white;
@@ -26,6 +30,32 @@
   font-weight: 300;
   line-height: 1.5em;
   color: rgba(90,90,90,1);
+}
+/*Hire Me Page*/
+.contact-form-container{
+  margin-top: 30px;
+}
+.hire-me-content h3,h2{
+  font-weight: 300;
+  line-height: 1.5em;
+  color: rgba(90,90,90,1);
+}
+.mail-id-input{
+  width: 210px;
+}
+.clipboard-btn{
+  border-radius: 0px;
+  font-weight: 300;
+  background-color: rgba(229,69,69,1);
+  transition: all 0.3s ease-in;
+}
+.clipboard-btn:hover{
+  background-color: rgba(249, 80, 80, 1);
+  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+}
+.contact-form-column{
+  margin-top: 25px;
 }
 body{
   font-family:"Catamaran",Roboto,sans-serif;
@@ -454,6 +484,11 @@ svg .play-button-svg:hover path {
 }
 /*****#######Mobile Device Style######*******/
 @media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
+  /*hire me page*/
+  .hire-me-column-container{
+    display:flex;
+    align-items:center;
+  }
   .navbar-default{
     background-color: rgba(229,69,69,1);
     text-align: center;
@@ -477,6 +512,11 @@ svg .play-button-svg:hover path {
 
 /*****#######Xs Screen Style######*******/
 @media only screen and (min-width : 320px) and (max-width : 767px) {
+  /*hire me page*/
+  .hire-me-column-container{
+    display: block;
+    align-items: center;
+  }
   #navbar-menu-list{
     background-color: rgba(229,69,69,1);
   }
@@ -518,7 +558,7 @@ svg .play-button-svg:hover path {
 
 }
 
-//*****#############*******
+/*****#############*******
 /*****#######About Me Style######*******/
 #about-bg-image{
   height: 600px;

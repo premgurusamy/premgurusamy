@@ -14,9 +14,9 @@
 
     </head>
   <body>
-    <div class="container-fluid under-construction-container">
+    <!--<div class="container-fluid under-construction-container">
       <h3 class="text-center">Page Under Construction Now Go <a href="index.html">Back Home</a></h3>
-    </div>
+    </div>!-->
     <!--Header design starts here!-->
     <header>
       <!--navbar design ends here!-->
@@ -42,7 +42,7 @@
                 <!--<li><a href="#">Works</a></li>!-->
                 <li ><a href="about-me.html">About Me</a></li>
                 <li>
-                  <a class="btn hire-me-button cute-btn btn-primary " href="hire-me.html">Hire Me!</a>
+                  <a class="btn hire-me-button cute-btn btn-primary disabled" href="hire-me.html">Hire Me!</a>
                 </li>
               </ul>
             </div>
@@ -53,9 +53,26 @@
       <!--navbar design ends here!-->
     </header>
     <!--header design ends here!-->
-    <div class="container">
-      <div class="row">
-        <div class="">
+    <div class="container contact-form-container">
+      <div class="row hire-me-column-container">
+        <div class="col-md-6">
+          <img data-original="asset/images/contact-page-cat.gif" class="lazy img-responsive" />
+        </div>
+        <div class="col-md-6 text-center hire-me-content">
+          <h2>If you're looking for a new team member, freelancer or just want to say hello.</h2>
+          <h3 >You can send message to this email address.</h3>
+          <!-- Target -->
+          <div class="text-center">
+            <input class="mail-id-input" id="foo" value="mailtopremfromindia@gmail.com">
+            <!-- Trigger -->
+            <button class="btn btn-primary clipboard-btn cute-btn" data-clipboard-target="#foo">
+                <i class="fa fa-clipboard clipboard-icon "> </i> Email
+            </button>
+          </div>
+
+        </div>
+        <!--
+        <div class="col-md-6 contact-form-column">
           <form id="contact-form" method="post" action="contact.php" role="form">
 
               <div class="messages"></div>
@@ -108,7 +125,7 @@
                   </div>
                   <div class="row">
                       <div class="col-md-12">
-                          <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+
                       </div>
                   </div>
               </div>
@@ -116,6 +133,7 @@
           </form>
 
         </div>
+        !-->
       </div>
     </div>
 
@@ -143,7 +161,10 @@
     <script type="text/Javascript" src="script/jquery.lazyload.js"></script>
     <script type="text/javascript" src="script/bootstrap.js"></script>
     <script type="text/javascript" src="script/my-script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.16/clipboard.min.js"></script>
+    <script>
+      new Clipboard('.btn');
+    </script>
     <script src="validator.js"></script>
     <script src="contact.js"></script>
 
