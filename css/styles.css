@@ -13,11 +13,7 @@
 }
 /*About Page*/
 .about-navbar{
-  background-color: rgba(229,69,69,1)!important;
-}
-#about-navbar-link a{
-  color: white;
-  font-weight: 700;
+  background-color: rgba(250,250,250,1);
 }
 .about-container{
   margin-top: 80px;
@@ -92,6 +88,7 @@ body{
 .navbar-toggle {
   overflow: hidden;
 }
+
 .navbar-toggle .icon-bar {
   -webkit-transition: opacity, -webkit-transform;
   transition: opacity, -webkit-transform;
@@ -129,11 +126,11 @@ body{
   border: none;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover {
-  color: rgba(255,255,255,0.8) !important;
+  color: rgba(55,55,55,0.6) !important;
   transition: all 0.3s ease-in;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color:white;
+    background-color:rgba(229,69,69,1);
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
@@ -141,23 +138,21 @@ body{
   background-color: transparent;
 }
 
-#navbar-menu-list  a{
-  font-weight: 700;
-  color: white;
+#navbar-menu-list{
+  font-size: 14px;
+  transition: all 0.3s ease-in;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: rgba(255,255,255,0.5) !important;
+  color: rgba(55,55,55,0.5) !important;
 }
 .navbar-brand img{
   height: 30px;
 }
-.hire-me-button{
-  margin-left: 10px;
-  font-weight: 600;
-  color: rgba(255,255,255,1) ;
+.hire-me-button {
+  color: rgba(255,255,255,1) !important;
   transition: all 0.3s ease-in;
   border-radius:0px;
   border: none;
@@ -173,7 +168,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', end
 
 }
 .hire-me-button:hover{
-  color: rgba(255,255,255,1) ;
+  color: rgba(255,255,255,1)!important ;
   transition: all 0.3s ease-in;
   -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
   -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
@@ -185,8 +180,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', end
   position: relative;
   overflow: hidden;
   display: flex;
-
-  background: rgba(230,69,69,1);
+  background-image:url(../asset/images/bg-test-creative.jpg);
+  background-position: center;
+  /*background: rgba(230,69,69,1);
   background: -moz-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,69,69,0.8)), color-stop(100%, rgba(230,69,133,1)));
   background: -webkit-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
@@ -194,8 +190,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', end
   background: -ms-linear-gradient(top, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
   background: linear-gradient(to bottom, rgba(230,69,69,1) 0%, rgba(230,69,133,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64545', endColorstr='#e64585', GradientType=0 );
-
+*/
 }
+
 .jumbotron-container{
   background-color: transparent;
   display: flex;
@@ -208,18 +205,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', end
   background-color: transparent;
   text-align: center;
 }
+/*
 .typewrite{
   font-weight: 400;
-  color: white;
+  color: rgb(83, 83, 83);
+}
+*/
+.jumbotron .hero-head-text{
+  font-weight: 400;
+  color: rgba(100,100,100,1);
+  transition: all 0.3s ease-in;
 }
 .jumbotron p{
-  color: white;
+  color: rgb(83, 83, 83);
 }
+
 .play-icon{
   width: 75px;
   height: 75px;
-  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
-  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.2));
+  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
   transition: all 0.3s ease-in;
 }
 .play-polystar{
@@ -232,13 +237,13 @@ svg .play-button-svg:hover path {
     fill:rgba(250,250,250,1);
 
     transition: all 0.3s ease-out;
-    -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
-    -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+    -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.4));
+    -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.4));
 }
 .play-icon:hover{
   transition: all 0.3s ease-out;
-  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
-  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.3));
+  -o-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.4));
+  -webkit-filter: drop-shadow(-5px 10px 10px rgba(0,0,0,0.4));
 }
   /*****#######Header Modal Style Here Style######*******/
   /*###Video Modals Designs Here###*/
@@ -261,7 +266,7 @@ svg .play-button-svg:hover path {
   background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
   background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
-	  opacity: 0.9;
+	  opacity: 1;
   }
   .modal-content{
     background-color: transparent;
@@ -490,7 +495,7 @@ svg .play-button-svg:hover path {
     align-items:center;
   }
   .navbar-default{
-    background-color: rgba(229,69,69,1);
+    background-color: rgba(250,250,250,1);
     text-align: center;
   }
   #navbar-menu-list  a{
@@ -512,13 +517,16 @@ svg .play-button-svg:hover path {
 
 /*****#######Xs Screen Style######*******/
 @media only screen and (min-width : 320px) and (max-width : 767px) {
+  .header-video-container{
+    background-image:url(../asset/images/bg-test-creative-mobile-size.jpg);
+  }
   /*hire me page*/
   .hire-me-column-container{
     display: block;
     align-items: center;
   }
   #navbar-menu-list{
-    background-color: rgba(229,69,69,1);
+    background-color: rgba(250,250,250,1);
   }
   .dropdown-menu li a{
     font-size: 1em;
