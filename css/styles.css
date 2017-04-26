@@ -223,8 +223,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08368', end
 .play-icon{
   width: 75px;
   height: 75px;
-
-
   transition: all 0.3s ease-in;
 }
 .play-polystar{
@@ -237,10 +235,9 @@ svg .play-button-svg:hover path {
     fill:rgba(245,245,245,1);
 
     transition: all 0.3s ease-out;
-
+}
 .play-icon:hover{
   transition: all 0.3s ease-out;
-
 }
   /*****#######Header Modal Style Here Style######*******/
   /*###Video Modals Designs Here###*/
